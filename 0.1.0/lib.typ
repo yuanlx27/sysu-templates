@@ -17,7 +17,7 @@
 
     if nums.len() == 1 {
       numbering("一", ..nums)
-    } else if nums.len() == 2 {
+    } else {
       numbering("1.1", ..nums)
     }
   })
