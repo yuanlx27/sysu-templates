@@ -13,6 +13,8 @@
 
   show heading: set block(above: 1.6em, below: 0.8em)
 
+  show link: set text(fill: blue)
+
   page({
     set align(center)
 
@@ -68,6 +70,8 @@
     lang: "zh",
     size: 12pt,
   )
+
+  show link: set text(fill: blue)
 
   show raw: set text(font: "Maple Mono NFMono")
   show raw.where(block: true): it => block(fill: luma(90%), inset: 1em, radius: 0.2em, width: 100%, it)
